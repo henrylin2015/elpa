@@ -1,0 +1,22 @@
+#+TITLE: Emacs China ELPA 镜像
+
+#+OPTIONS: num:nil toc:nil
+#+OPTIONS: html-style:nil html-scripts:nil
+#+OPTIONS: html-preamble:nil html-postamble:nil
+
+ELPA 即 Emacs Lisp Package Archive，是存放 Emacs Lisp 安装包的地方。目前存在多个 ELPA，本镜像支持的 ELPA 有：
+
+| ELPA              | 原地址                                        | 镜像地址                                   |
+|-------------------+-----------------------------------------------+--------------------------------------------|
+| [[http://elpa.gnu.org/][GNU ELPA]]          | http://elpa.gnu.org/packages                  | http://elpa.zilongshanren.com/gnu          |
+| [[https://melpa.org/][MELPA]]             | http://melpa.org/packages                     | http://elpa.zilongshanren.com/melpa        |
+| [[http://stable.melpa.org/#/][MELPA Stable]]      | https://stable.melpa.org/packages             | http://elpa.zilongshanren.com/melpa-stable |
+| [[Https://marmalade-repo.org/][Marmalade]]         | http://marmalade-repo.org/packages            | http://elpa.zilongshanren.com/marmalade    |
+| [[http://orgmode.org/elpa.html][Org]]               | http://orgmode.org/elpa                       | http://elpa.zilongshanren.com/org          |
+| [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://joseito.republika.pl/sunrise-commander | http://elpa.zilongshanren.com/sc           |
+
+注意：由于 emacs-china.org 未备案，本镜像用了[[http://zilongshanren.com/][子龙山人]]提供的子域名：elpa.zilongshanren.com。万一日后 emacs-china.org 备案通过，elpa.zilongshanren.com 会继续工作或重定向至 elpa.emacs-china.org。
+
+** 如何使用？
+
+** 如何工作的？
