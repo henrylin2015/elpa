@@ -4,19 +4,38 @@
 #+OPTIONS: html-style:nil html-scripts:nil
 #+OPTIONS: html-preamble:nil html-postamble:nil
 
-ELPA 即 Emacs Lisp Package Archive，是存放 Emacs Lisp 安装包的地方。目前存在多个 ELPA，本镜像支持的 ELPA 有：
+每两小时更新一次。
 
-| ELPA              | 源地址                                         | 镜像地址                                    |
-|-------------------+------------------------------------------------+---------------------------------------------|
-| [[http://elpa.gnu.org/][GNU ELPA]]          | http://elpa.gnu.org/packages/                  | http://elpa.zilongshanren.com/gnu/          |
-| [[https://melpa.org/][MELPA]]             | http://melpa.org/packages/                     | http://elpa.zilongshanren.com/melpa/        |
-| [[http://stable.melpa.org/#/][MELPA Stable]]      | https://stable.melpa.org/packages/             | http://elpa.zilongshanren.com/melpa-stable/ |
-| [[Https://marmalade-repo.org/][Marmalade]]         | http://marmalade-repo.org/packages/            | http://elpa.zilongshanren.com/marmalade/    |
-| [[http://orgmode.org/elpa.html][Org]]               | http://orgmode.org/elpa/                       | http://elpa.zilongshanren.com/org/          |
-| [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://joseito.republika.pl/sunrise-commander/ | http://elpa.zilongshanren.com/sc/           |
+| ELPA              | 镜像地址                                    |
+|-------------------+---------------------------------------------|
+| [[http://elpa.gnu.org/][GNU ELPA]]          | http://elpa.zilongshanren.com/gnu/          |
+| [[https://melpa.org/][MELPA]]             | http://elpa.zilongshanren.com/melpa/        |
+| [[http://stable.melpa.org/#/][MELPA Stable]]      | http://elpa.zilongshanren.com/melpa-stable/ |
+| [[Https://marmalade-repo.org/][Marmalade]]         | http://elpa.zilongshanren.com/marmalade/    |
+| [[http://orgmode.org/elpa.html][Org]]               | http://elpa.zilongshanren.com/org/          |
+| [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://elpa.zilongshanren.com/sc/           |
 
-注意：由于 emacs-china.org 未备案，本镜像用了[[http://zilongshanren.com/][子龙山人]]提供的子域名：elpa.zilongshanren.com。万一日后 emacs-china.org 备案通过，elpa.zilongshanren.com 会继续工作或重定向至 elpa.emacs-china.org。
+注意：由于 emacs-china.org 未备案，本镜像用了[[http://zilongshanren.com/][子龙山人]]提供的子域名：elpa.zilongshanren.com。即使将来 emacs-china.org 备案了，elpa.zilongshanren.com 仍会继续工作。
 
 ** 如何使用？
 
-** 如何工作的？
+根据你的需求，设置 package-archives，比如用 GNU ELPA 和 MELPA 的话：
+
+#+BEGIN_SRC emacs-lisp
+  (setq package-archives '(("gnu"   . "http://elpa.zilongshanren.com/gnu/")
+                           ("melpa" . "http://elpa.zilongshanren.com/melpa/")))
+#+END_SRC
+
+*** Cask
+
+[[https://github.com/cask/cask][Cask]] 是一个 Emacs Lisp 的项目管理工具，主要用于开发 Emacs Lisp Package，也可用于管理 .emacs.d 中所需的 Packages。这里还是以 GNU ELPA 和 MELPA 为例，在 Cask 文件中添加：
+
+#+BEGIN_SRC emacs-lisp
+  (source "gnu"   "http://elpa.zilongshanren.com/gnu/")
+  (source "melpa" "http://elpa.zilongshanren.com/melpa/")
+#+END_SRC
+
+** 致谢
+
+- [[http://zilongshanren.com/][子龙山人]] :: 提供域名和 VPS
+- [[https://travis-ci.org/][Travis CI]] :: 同步的工作在它上面完成，使得我们不用购买一台国外的 VPS
