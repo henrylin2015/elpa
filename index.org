@@ -1,10 +1,10 @@
-#+TITLE: Emacs China ELPA 镜像
+#+TITLE: ELPA 镜像 - Emacs China
 
 #+OPTIONS: num:nil toc:nil
 #+OPTIONS: html-style:nil html-scripts:nil
 #+OPTIONS: html-preamble:nil html-postamble:nil
 
-每两小时更新一次。
+镜像每两小时更新一次。
 
 | ELPA              | 镜像地址                                    |
 |-------------------+---------------------------------------------|
