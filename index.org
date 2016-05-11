@@ -13,7 +13,7 @@
 | [[http://stable.melpa.org/#/][MELPA Stable]]      | http://elpa.zilongshanren.com/melpa-stable/ |
 | [[Https://marmalade-repo.org/][Marmalade]]         | http://elpa.zilongshanren.com/marmalade/    |
 | [[http://orgmode.org/elpa.html][Org]]               | http://elpa.zilongshanren.com/org/          |
-| [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://elpa.zilongshanren.com/sc/           |
+| [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://elpa.zilongshanren.com/SC/           |
 
 注意：由于 emacs-china.org 未备案，本镜像用了[[http://zilongshanren.com/][子龙山人]]提供的子域名：elpa.zilongshanren.com。即使将来 emacs-china.org 备案了，elpa.zilongshanren.com 仍会继续工作。
 
