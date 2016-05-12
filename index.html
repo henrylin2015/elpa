@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-05-12 Thu 17:07 -->
+<!-- 2016-05-12 Thu 18:15 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>ELPA 镜像 - Emacs China</title>
@@ -36,13 +36,6 @@
         <span class="text">ELPA 镜像</span>
     </h1>
 </div>
-
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1">同步说明</h2>
-<div class="outline-text-2" id="text-orgheadline1">
-<p>
-镜像每两小时更新一次。
-</p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -91,17 +84,11 @@
 </tbody>
 </table>
 
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1">使用方法</h2>
+<div class="outline-text-2" id="text-orgheadline1">
 <p>
-注意：由于 emacs-china.org 未备案，本镜像用了<a href="http://zilongshanren.com/">子龙山人</a>提供的子域名：elpa.zilongshanren.com。即使将来 emacs-china.org 备案了，elpa.zilongshanren.com 仍会继续工作。
-</p>
-</div>
-</div>
-
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2">如何使用？</h2>
-<div class="outline-text-2" id="text-orgheadline2">
-<p>
-根据你的需求，设置 package-archives，比如用 GNU ELPA 和 MELPA 的话：
+根据你的需求，设置 <code>package-archives</code> ，比如用 GNU ELPA 和 MELPA：
 </p>
 
 <div class="org-src-container">
@@ -112,11 +99,11 @@
 </div>
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3">Cask</h3>
-<div class="outline-text-3" id="text-orgheadline3">
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2">Cask</h3>
+<div class="outline-text-3" id="text-orgheadline2">
 <p>
-<a href="https://github.com/cask/cask">Cask</a> 是一个 Emacs Lisp 的项目管理工具，主要用于开发 Emacs Lisp Package，也可用于管理 .emacs.d 中所需的 Packages。这里还是以 GNU ELPA 和 MELPA 为例，在 Cask 文件中添加：
+<a href="https://github.com/cask/cask">Cask</a> 是一个 Emacs Lisp 的项目管理工具，一般用于开发 Emacs Lisp Package。这里还是以 GNU ELPA 和 MELPA 为例，在 Cask 文件中添加：
 </p>
 
 <div class="org-src-container">
@@ -129,9 +116,32 @@
 </div>
 </div>
 
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3">镜像说明</h2>
+<div class="outline-text-2" id="text-orgheadline3">
+<p>
+镜像每两小时<a href="https://travis-ci.org/emacs-china/elpa/builds">更新</a>一次。
+</p>
+
+<p>
+由于 <kbd>emacs-china.org</kbd> 没有备案，我们用了<a href="http://zilongshanren.com/">子龙山人</a>提供的子域名。即使将来 <kbd>emacs-china.org</kbd> 备案了， <kbd>elpa.zilongshanren.com</kbd> 仍会继续工作，请大家放心。
+</p>
+</div>
+</div>
+
 <div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="orgheadline4">致谢</h2>
+<h2 id="orgheadline4">报告问题</h2>
 <div class="outline-text-2" id="text-orgheadline4">
+<p>
+<a href="https://github.com/emacs-china/elpa/issues">https://github.com/emacs-china/elpa/issues</a>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline5" class="outline-2">
+<h2 id="orgheadline5">致谢</h2>
+<div class="outline-text-2" id="text-orgheadline5">
 <p>
 <a href="http://zilongshanren.com/">子龙山人</a> 提供域名和 VPS
 </p>

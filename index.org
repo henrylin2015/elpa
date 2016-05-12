@@ -35,10 +35,6 @@
 </div>
 #+END_HTML
 
-** 同步说明
-
-镜像每两小时更新一次。
-
 | ELPA              | 镜像地址                                    |
 |-------------------+---------------------------------------------|
 | [[http://elpa.gnu.org/][GNU ELPA]]          | http://elpa.zilongshanren.com/gnu/          |
@@ -48,11 +44,9 @@
 | [[http://orgmode.org/elpa.html][Org]]               | http://elpa.zilongshanren.com/org/          |
 | [[http://joseito.republika.pl/sunrise-commander/][Sunrise Commander]] | http://elpa.zilongshanren.com/SC/           |
 
-注意：由于 emacs-china.org 未备案，本镜像用了[[http://zilongshanren.com/][子龙山人]]提供的子域名：elpa.zilongshanren.com。即使将来 emacs-china.org 备案了，elpa.zilongshanren.com 仍会继续工作。
+** 使用方法
 
-** 如何使用？
-
-根据你的需求，设置 package-archives，比如用 GNU ELPA 和 MELPA 的话：
+根据你的需求，设置 ~package-archives~ ，比如用 GNU ELPA 和 MELPA：
 
 #+BEGIN_SRC emacs-lisp
   (setq package-archives '(("gnu"   . "http://elpa.zilongshanren.com/gnu/")
@@ -61,12 +55,23 @@
 
 *** Cask
 
-[[https://github.com/cask/cask][Cask]] 是一个 Emacs Lisp 的项目管理工具，主要用于开发 Emacs Lisp Package，也可用于管理 .emacs.d 中所需的 Packages。这里还是以 GNU ELPA 和 MELPA 为例，在 Cask 文件中添加：
+[[https://github.com/cask/cask][Cask]] 是一个 Emacs Lisp 的项目管理工具，一般用于开发 Emacs Lisp Package。这里还是以 GNU ELPA 和 MELPA 为例，在 Cask 文件中添加：
 
 #+BEGIN_SRC emacs-lisp
   (source "gnu"   "http://elpa.zilongshanren.com/gnu/")
   (source "melpa" "http://elpa.zilongshanren.com/melpa/")
 #+END_SRC
+
+** 镜像说明
+
+镜像每两小时[[https://travis-ci.org/emacs-china/elpa/builds][更新]]一次。
+
+由于 =emacs-china.org= 没有备案，我们用了[[http://zilongshanren.com/][子龙山人]]提供的子域名。即使将来 =emacs-china.org= 备案了， =elpa.zilongshanren.com= 仍会继续工作，请大家放心。
+
+** 报告问题
+
+https://github.com/emacs-china/elpa/issues
+
 
 ** 致谢
 
