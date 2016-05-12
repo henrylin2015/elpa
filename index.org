@@ -14,24 +14,27 @@
 
 #+BEGIN_HTML
 <nav id="bar">
-  <div>
-    <a class="nav-link orange" href="http://about.emacs-china.org/" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a>
-    <a class="nav-link yellow" href="http://book.emacs-china.org" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Book</a>
-    <a class="nav-link green" href="http://emacs-china.github.io" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
-&nbsp;EGO</a>
-    <a class="fork-us" href="https://github.com/emacs-china" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
-&nbsp;Fork Us</a>
-  </div>
+    <div>
+        <a class="nav-link blue" href="https://emacs-china.org/" target="_blank"><i class="fa fa-group" aria-hidden="true"></i>&nbsp;Forum</a>
+        <a class="nav-link orange" href="http://about.emacs-china.org/" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a>
+        <a class="nav-link yellow" href="http://book.emacs-china.org" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Book</a>
+        <a class="nav-link green" href="http://emacs-china.github.io" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
+            &nbsp;EGO</a>
+        <a class="fork-us" href="https://github.com/emacs-china" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+            &nbsp;Fork Us</a>
+    </div>
 </nav>
 <div class="heading">
-<h1 class="heading-main">
-<span class="img">
-<img class="emacs-china-logo" src="./imgs/logo.png"/>
-</span>
-<span class="text">ELPA 镜像</span>
-</h1>
+    <h1 class="heading-main">
+        <span class="img">
+            <img class="emacs-china-logo" src="./imgs/logo.png"/>
+        </span>
+        <span class="text">ELPA 镜像</span>
+    </h1>
 </div>
 #+END_HTML
+
+** 同步说明
 
 镜像每两小时更新一次。
 
