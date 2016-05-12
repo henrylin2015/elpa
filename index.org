@@ -1,8 +1,34 @@
+#+OPTIONS: title:nil
+#+OPTIONS: num:nil 
+#+OPTIONS: toc:nil
+#+OPTIONS: html-style:nil 
+#+OPTIONS: html-scripts:nil
+#+OPTIONS: html-preamble:nil 
+#+OPTIONS: html-postamble:nil
 #+TITLE: ELPA 镜像 - Emacs China
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/font-awesome/css/font-awesome.min.css">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-#+OPTIONS: num:nil toc:nil
-#+OPTIONS: html-style:nil html-scripts:nil
-#+OPTIONS: html-preamble:nil html-postamble:nil
+#+BEGIN_HTML
+<nav id="bar">
+  <div>
+    <a class="nav-link orange" href="http://about.emacs-china.org/" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a>
+    <a class="nav-link yellow" href="http://book.emacs-china.org" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Book</a>
+    <a class="nav-link green" href="http://emacs-china.github.io" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
+&nbsp;EGO</a>
+    <a class="fork-us" href="https://github.com/emacs-china" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+&nbsp;Fork Us</a>
+  </div>
+</nav>
+<div class="heading">
+<h1 class="heading-main">
+<span class="img">
+<img class="emacs-china-logo" src="./imgs/logo.png"/>
+</span>
+<span class="text">ELPA 镜像</span>
+</h1>
+</div>
+#+END_HTML
 
 镜像每两小时更新一次。
 
@@ -37,5 +63,6 @@
 
 ** 致谢
 
-- [[http://zilongshanren.com/][子龙山人]] :: 提供域名和 VPS
-- [[https://travis-ci.org/][Travis CI]] :: 同步的工作在它上面完成，使得我们不用购买一台国外的 VPS
+[[http://zilongshanren.com/][子龙山人]] 提供域名和 VPS
+
+[[https://travis-ci.org/][Travis CI]] 同步的工作在它上面完成，使得我们不用购买一台国外的 VPS
