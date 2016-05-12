@@ -6,6 +6,9 @@
 #+OPTIONS: html-preamble:nil 
 #+OPTIONS: html-postamble:nil
 #+TITLE: ELPA 镜像 - Emacs China
+#+HTML_HEAD: <link rel="apple-touch-icon" type="image/png" href="https://emacs-china.org/uploads/default/original/1X/ebb284b1e209aa93c9744227e1374130f8190aec.png">
+#+HTML_HEAD: <link rel="icon" sizes="144x144" href="https://emacs-china.org/uploads/default/original/1X/ebb284b1e209aa93c9744227e1374130f8190aec.png">
+#+HTML_HEAD: <link rel="icon" type="image/png" href="https://emacs-china.org/uploads/default/original/1X/477ac7ed14175dfd2deb65ee3c3d83d18a8906b8.ico">
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/font-awesome/css/font-awesome.min.css">
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/style.css">
 
