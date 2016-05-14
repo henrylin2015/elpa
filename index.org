@@ -35,6 +35,8 @@
 </div>
 #+END_HTML
 
+/注：本镜像处于测试阶段/
+
 | ELPA              | 镜像地址                                    |
 |-------------------+---------------------------------------------|
 | [[http://elpa.gnu.org/][GNU ELPA]]          | http://elpa.zilongshanren.com/gnu/          |
