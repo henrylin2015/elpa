@@ -81,3 +81,7 @@ https://github.com/emacs-china/elpa/issues
 [[http://zilongshanren.com/][子龙山人]] 提供域名和 VPS
 
 [[https://travis-ci.org/][Travis CI]] 同步的工作在它上面完成，使得我们不用购买一台国外的 VPS
+
+[[https://github.com/li-xinyang][li-xinyang (Li Xinyang)]] 设计这个页面
+
+[[https://github.com/qinshulei][qinshulei (Qin Shulei)]] 改进这个页面
