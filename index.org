@@ -21,6 +21,7 @@
         <a class="nav-link yellow" href="http://book.emacs-china.org" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Book</a>
         <a class="nav-link green" href="http://emacs-china.github.io" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
             &nbsp;EGO</a>
+        <a class="nav-link violet" href="http://elpa.emacs-china.org"><i class="fa fa-server" aria-hidden="true"></i>&nbsp;ELPA</a>
         <a class="fork-us" href="https://github.com/emacs-china" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
             &nbsp;Fork Us</a>
     </div>

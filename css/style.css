@@ -115,6 +115,16 @@ nav#bar a.grey:hover {
     text-shadow: 0px 0px 5px #aaa;
 }
 
+nav#bar a.violet.selected {
+    color: violet;
+    border-color: #aaa !important;
+}
+
+nav#bar a.violet:hover {
+    color: violet;
+    text-shadow: 0px 0px 5px #aaa;
+}
+
 nav#bar a.nav-link.selected {
     line-height: 42px;
     border-top: 3px solid #0b0d0d;
