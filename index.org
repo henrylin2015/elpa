@@ -16,7 +16,7 @@
 #+BEGIN_HTML
 <nav id="bar">
     <div>
-        <a class="nav-link blue" href="https://emacs-china.org/" target="_blank"><i class="fa fa-group" aria-hidden="true"></i>&nbsp;Forum</a>
+        <a class="nav-link blue" href="https://emacs-china.org/"><i class="fa fa-group" aria-hidden="true"></i>&nbsp;Forum</a>
         <a class="nav-link orange" href="http://about.emacs-china.org/" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About</a>
         <a class="nav-link yellow" href="http://book.emacs-china.org" target="_blank"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Book</a>
         <a class="nav-link green" href="http://emacs-china.github.io" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i>
