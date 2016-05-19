@@ -73,3 +73,5 @@ https://github.com/emacs-china/elpa/issues
 [[https://github.com/li-xinyang][li-xinyang (Li Xinyang)]] 设计这个页面
 
 [[https://github.com/qinshulei][qinshulei (Qin Shulei)]] 改进这个页面
+
+[[https://github.com/xuchunyang/][xuchunyang (Chunyang Xu)]] 目前负责镜像的维护工作
