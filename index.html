@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-05-19 Thu 21:58 -->
+<!-- 2016-05-26 Thu 19:25 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>ELPA 镜像 - Emacs China</title>
@@ -95,11 +95,45 @@
 </pre>
 </div>
 </div>
+
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2">Spacemacs 用户</h3>
+<div class="outline-text-3" id="text-orgheadline2">
+<p>
+添加下面的代码到 <code>.spacemacs</code> 的 <code>dotspacemacs/user-init()</code>
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(<span style="color: #a020f0;">setq</span> configuration-layer--elpa-archives
+    '((<span style="color: #8b2252;">"melpa-cn"</span> . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span>)
+      (<span style="color: #8b2252;">"org-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/org/"</span>)
+      (<span style="color: #8b2252;">"gnu-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span>)))
+</pre>
+</div>
+</div>
 </div>
 
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2">镜像说明</h2>
-<div class="outline-text-2" id="text-orgheadline2">
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3">Cask 用户</h3>
+<div class="outline-text-3" id="text-orgheadline3">
+<p>
+<a href="https://github.com/cask/cask">Cask</a> 是一个 Emacs Lisp 的项目管理工具。这里还是以 GNU ELPA 和 MELPA 为例，在添加下面的代码到 <code>Cask</code>
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(source <span style="color: #8b2252;">"gnu"</span>   <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span>)
+(source <span style="color: #8b2252;">"melpa"</span> <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span>)
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline4" class="outline-2">
+<h2 id="orgheadline4">镜像说明</h2>
+<div class="outline-text-2" id="text-orgheadline4">
 <p>
 每四小时<a href="https://travis-ci.org/emacs-china/elpa/builds">更新</a>一次。
 </p>
@@ -111,9 +145,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3">报告问题</h2>
-<div class="outline-text-2" id="text-orgheadline3">
+<div id="outline-container-orgheadline5" class="outline-2">
+<h2 id="orgheadline5">报告问题</h2>
+<div class="outline-text-2" id="text-orgheadline5">
 <p>
 <a href="https://github.com/emacs-china/elpa/issues">https://github.com/emacs-china/elpa/issues</a>
 </p>
@@ -121,9 +155,9 @@
 </div>
 
 
-<div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="orgheadline4">致谢</h2>
-<div class="outline-text-2" id="text-orgheadline4">
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6">致谢</h2>
+<div class="outline-text-2" id="text-orgheadline6">
 <p>
 <a href="http://zilongshanren.com/">子龙山人</a> 提供域名和 VPS
 </p>
