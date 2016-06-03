@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-06-02 Thu 01:14 -->
+<!-- 2016-06-03 Fri 12:16 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>ELPA 镜像 - Emacs China</title>
@@ -146,8 +146,39 @@
 </div>
 
 <div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5">报告问题</h2>
+<h2 id="orgheadline5">制作新的镜像</h2>
 <div class="outline-text-2" id="text-orgheadline5">
+<p>
+上游的 ELPA 目前都还没有提供制作镜像的方法，如果你也需要制作镜像，可以直接同步本镜像，rsync 地址为
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-undefined">rsync://elpa.zilongshanren.com/elpa/
+</pre>
+</div>
+
+<p>
+本镜像目前（2016-06-03）收录了的 5 个 常见的 ELPA，共占 536M
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-undefined">536M      /elpa
+
+50M       /elpa/gnu
+282M      /elpa/melpa
+129M      /elpa/melpa-stable
+63M       /elpa/marmalade
+13M       /elpa/org
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6">报告问题</h2>
+<div class="outline-text-2" id="text-orgheadline6">
 <p>
 <a href="https://github.com/emacs-china/elpa/issues">https://github.com/emacs-china/elpa/issues</a>
 </p>
@@ -155,9 +186,9 @@
 </div>
 
 
-<div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6">致谢</h2>
-<div class="outline-text-2" id="text-orgheadline6">
+<div id="outline-container-orgheadline7" class="outline-2">
+<h2 id="orgheadline7">致谢</h2>
+<div class="outline-text-2" id="text-orgheadline7">
 <p>
 <a href="http://zilongshanren.com/">子龙山人</a> 提供域名和 VPS
 </p>
