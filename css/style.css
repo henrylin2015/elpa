@@ -244,3 +244,11 @@ th {
         float: left !important;
     }
 }
+
+code{
+    background:white;
+    border:solid 1px #e1e4e5;
+    overflow-x:auto;
+    padding:0 5px;
+    white-space:nowrap;
+}
