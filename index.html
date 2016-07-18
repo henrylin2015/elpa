@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-06-05 Sun 20:56 -->
+<!-- 2016-07-19 Tue 01:08 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>ELPA 镜像 - Emacs China</title>
@@ -36,11 +36,8 @@
 </div>
 
 <p>
-<a href="https://travis-ci.org/emacs-china/elpa"><img src="https://travis-ci.org/emacs-china/elpa.svg?branch=master" alt="elpa.svg?branch=master" /></a> <a href="https://elpa.zilongshanren.com/downloads"><img src="https://elpa.zilongshanren.com/downloads-badge.svg" alt="downloads-badge.svg" /></a>
-</p>
-
-<p>
-<i>注：本镜像搭建在 <a href="https://github.com/zilongshanren">@zilongshanren</a> 的 VPS 上，带宽有限，可以考虑使用 <a href="https://mirrors.tuna.tsinghua.edu.cn/help/elpa/">清华大学 TUNA 镜像源的 ELPA 镜像</a></i>
+<a href="https://travis-ci.org/emacs-china/elpa"><img src="https://travis-ci.org/emacs-china/elpa.svg?branch=master" alt="elpa.svg?branch=master" /></a> <a href="https://elpa.zilongshanren.com/downloads"><object type="image/svg+xml" data="https://elpa.zilongshanren.com/downloads-badge.svg" >
+Sorry, your browser does not support SVG.</object></a>
 </p>
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -94,8 +91,8 @@
 
 <div class="org-src-container">
 
-<pre class="src src-emacs-lisp">(<span style="color: #a020f0;">setq</span> package-archives '((<span style="color: #8b2252;">"gnu"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span>)
-                         (<span style="color: #8b2252;">"melpa"</span> . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span>)))
+<pre class="src src-emacs-lisp"><span style="color: #707183;">(</span><span style="color: #a020f0;">setq</span> package-archives '<span style="color: #7388d6;">(</span><span style="color: #909183;">(</span><span style="color: #8b2252;">"gnu"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span><span style="color: #909183;">)</span>
+                         <span style="color: #909183;">(</span><span style="color: #8b2252;">"melpa"</span> . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span><span style="color: #909183;">)</span><span style="color: #7388d6;">)</span><span style="color: #707183;">)</span>
 </pre>
 </div>
 </div>
@@ -109,10 +106,10 @@
 
 <div class="org-src-container">
 
-<pre class="src src-emacs-lisp">(<span style="color: #a020f0;">setq</span> configuration-layer--elpa-archives
-    '((<span style="color: #8b2252;">"melpa-cn"</span> . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span>)
-      (<span style="color: #8b2252;">"org-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/org/"</span>)
-      (<span style="color: #8b2252;">"gnu-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span>)))
+<pre class="src src-emacs-lisp"><span style="color: #707183;">(</span><span style="color: #a020f0;">setq</span> configuration-layer--elpa-archives
+    '<span style="color: #7388d6;">(</span><span style="color: #909183;">(</span><span style="color: #8b2252;">"melpa-cn"</span> . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span><span style="color: #909183;">)</span>
+      <span style="color: #909183;">(</span><span style="color: #8b2252;">"org-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/org/"</span><span style="color: #909183;">)</span>
+      <span style="color: #909183;">(</span><span style="color: #8b2252;">"gnu-cn"</span>   . <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span><span style="color: #909183;">)</span><span style="color: #7388d6;">)</span><span style="color: #707183;">)</span>
 </pre>
 </div>
 </div>
@@ -127,8 +124,8 @@
 
 <div class="org-src-container">
 
-<pre class="src src-emacs-lisp">(source <span style="color: #8b2252;">"gnu"</span>   <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span>)
-(source <span style="color: #8b2252;">"melpa"</span> <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span>)
+<pre class="src src-emacs-lisp"><span style="color: #707183;">(</span>source <span style="color: #8b2252;">"gnu"</span>   <span style="color: #8b2252;">"http://elpa.zilongshanren.com/gnu/"</span><span style="color: #707183;">)</span>
+<span style="color: #707183;">(</span>source <span style="color: #8b2252;">"melpa"</span> <span style="color: #8b2252;">"http://elpa.zilongshanren.com/melpa/"</span><span style="color: #707183;">)</span>
 </pre>
 </div>
 </div>
@@ -154,31 +151,38 @@
 </div>
 
 <div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5">制作新的镜像</h2>
+<h2 id="orgheadline5">Rsync</h2>
 <div class="outline-text-2" id="text-orgheadline5">
 <p>
-上游的 ELPA 目前都还没有提供制作镜像的方法，如果你也需要制作镜像，可以直接同步本镜像，rsync 地址为
+上游 <a href="https://github.com/emacs-china/elpa/issues/30">GNU ELPA</a> 和 <a href="https://github.com/melpa/melpa/issues/4020">MELPA</a> 提供了 Rsync 服务，其地址分别为：
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-undefined">rsync://elpa.gnu.org/elpa/
+rsync://melpa.org/packages/
+</pre>
+</div>
+
+<p>
+而对于没有提供 Rsync 服务的 ELPA，你可以考虑使用 Emacs China 提供的 Rsync 服务，其地址分别为：
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-undefined">rsync://elpa.zilongshanren.com/elpa/melpa-stable/
+rsync://elpa.zilongshanren.com/elpa/marmalade/
+rsync://elpa.zilongshanren.com/elpa/org/
+</pre>
+</div>
+
+<p>
+你也可以直接从 Emacs China 同步所有的 ELPA，约占 2 G，其地址为：
 </p>
 
 <div class="org-src-container">
 
 <pre class="src src-undefined">rsync://elpa.zilongshanren.com/elpa/
-</pre>
-</div>
-
-<p>
-本镜像目前（2016-06-03）收录了的 5 个 常见的 ELPA，共占 536M
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-undefined">536M      /elpa
-
-50M       /elpa/gnu
-282M      /elpa/melpa
-129M      /elpa/melpa-stable
-63M       /elpa/marmalade
-13M       /elpa/org
 </pre>
 </div>
 </div>
